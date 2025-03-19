@@ -1,0 +1,422 @@
+{
+  "crops": [
+    {
+      "name": "Rice",
+      "scientificName": "Oryza sativa",
+      "growthCycle": "120-150 days",
+      "optimalConditions": {
+        "temperature": "20-35°C",
+        "humidity": "80-90%",
+        "pH": "5.5-7.0"
+      },
+      "yield": "4000-6000 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1600387845879-a4713f764110?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 23.8, 9.9, 8.7],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Maize",
+      "scientificName": "Zea mays",
+      "growthCycle": "90-120 days",
+      "optimalConditions": {
+        "temperature": "18-30°C",
+        "humidity": "60-80%",
+        "pH": "5.5-7.5"
+      },
+      "yield": "5000-8000 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1565522734001-f00e62ec8424?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1haXplJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Chickpea",
+      "scientificName": "Cicer arietinum",
+      "growthCycle": "90-120 days",
+      "optimalConditions": {
+        "temperature": "15-30°C",
+        "humidity": "40-60%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "800-2000 kg/ha (average)",
+      "imageUrl": "https://media.istockphoto.com/id/901838228/photo/chick-peas-farm.webp?a=1&b=1&s=612x612&w=0&k=20&c=BXusL0Kgz68wOysatLX1nI3vfLfK78GJNAkZhyDjBLM=",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 21.4, 13.0, 8.0],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Kidney Beans",
+      "scientificName": "Phaseolus vulgaris",
+      "growthCycle": "90-120 days",
+      "optimalConditions": {
+        "temperature": "15-25°C",
+        "humidity": "50-70%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "1000-2500 kg/ha (average)",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1661815691473-5efc09a055e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEtpZG5leSUyMEJlYW5zJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Pigeon Peas",
+      "scientificName": "Cajanus cajan",
+      "growthCycle": "120-180 days",
+      "optimalConditions": {
+        "temperature": "20-35°C",
+        "humidity": "50-70%",
+        "pH": "5.5-7.0"
+      },
+      "yield": "800-1500 kg/ha (average)",
+      "imageUrl": "https://media.istockphoto.com/id/1211157883/photo/pigeon-pea-crop-pigeon-pea-crop-field-salunkwadi-ambajogai-beed-gujarat-india-southeast-asia.jpg?s=612x612&w=0&k=20&c=ehmR4Tntxvv2DpjuxrkMdC8DZ7o1sbtucNeEuz8HGhE=",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 35.2, 21.4, 10.2, 7.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Moth Beans",
+      "scientificName": "Vigna aconitifolia",
+      "growthCycle": "75-90 days",
+      "optimalConditions": {
+        "temperature": "25-35°C",
+        "humidity": "40-60%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "600-1200 kg/ha (average)",
+      "imageUrl": "https://media.istockphoto.com/id/1366216370/photo/aphids-cavariella-aegopodii-semiaphis-dauci-causing-curling-and-crinkling-of-carrot-leaves.jpg?s=612x612&w=0&k=20&c=Ew2bIbJT9ZwpOxQwYkDinl9-BH_gIH-TLvoI3l3OUNI=",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 32.0, 28.8, 13.0, 7.0],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Mung Bean",
+      "scientificName": "Vigna radiata",
+      "growthCycle": "60-90 days",
+      "optimalConditions": {
+        "temperature": "25-35°C",
+        "humidity": "50-70%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "700-1500 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1627368300701-3b5aa399e2e0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Black Gram",
+      "scientificName": "Vigna mungo",
+      "growthCycle": "75-90 days",
+      "optimalConditions": {
+        "temperature": "25-35°C",
+        "humidity": "50-70%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "600-1200 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1627368300701-3b5aa399e2e0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Lentil",
+      "scientificName": "Lens culinaris",
+      "growthCycle": "90-120 days",
+      "optimalConditions": {
+        "temperature": "15-25°C",
+        "humidity": "40-60%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "800-2000 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1621286150646-fd3c250f8c18?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 21.4, 13.0, 8.0],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Pomegranate",
+      "scientificName": "Punica granatum",
+      "growthCycle": "180-240 days",
+      "optimalConditions": {
+        "temperature": "20-30°C",
+        "humidity": "50-70%",
+        "pH": "5.5-7.5"
+      },
+      "yield": "10-15 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1592725833639-e55e3c1c2e51?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Banana",
+      "scientificName": "Musa acuminata",
+      "growthCycle": "9-12 months",
+      "optimalConditions": {
+        "temperature": "25-30°C",
+        "humidity": "70-85%",
+        "pH": "5.5-7.0"
+      },
+      "yield": "30-50 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1588610372977-8e95f9a8d6bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 23.8, 9.9, 8.7],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Mango",
+      "scientificName": "Mangifera indica",
+      "growthCycle": "5-7 years (bearing)",
+      "optimalConditions": {
+        "temperature": "20-30°C",
+        "humidity": "50-70%",
+        "pH": "5.5-7.5"
+      },
+      "yield": "5-10 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1506619669176-3b4bd2c167a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Grapes",
+      "scientificName": "Vitis vinifera",
+      "growthCycle": "3-5 years (bearing)",
+      "optimalConditions": {
+        "temperature": "15-30°C",
+        "humidity": "50-70%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "10-15 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1517423440428-a5a1f9511f43?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 21.4, 13.0, 8.0],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Watermelon",
+      "scientificName": "Citrullus lanatus",
+      "growthCycle": "70-90 days",
+      "optimalConditions": {
+        "temperature": "20-30°C",
+        "humidity": "60-80%",
+        "pH": "5.5-7.0"
+      },
+      "yield": "20-50 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1615485292168-6d0e7c1d0b0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Muskmelon",
+      "scientificName": "Cucumis melo",
+      "growthCycle": "70-90 days",
+      "optimalConditions": {
+        "temperature": "20-30°C",
+        "humidity": "60-80%",
+        "pH": "5.5-7.0"
+      },
+      "yield": "15-30 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1615485292168-6d0e7c1d0b0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Apple",
+      "scientificName": "Malus domestica",
+      "growthCycle": "3-5 years (bearing)",
+      "optimalConditions": {
+        "temperature": "10-25°C",
+        "humidity": "40-60%",
+        "pH": "5.5-7.0"
+      },
+      "yield": "20-40 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1568702848-2f9c2cf893cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 21.4, 13.0, 8.0],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Orange",
+      "scientificName": "Citrus sinensis",
+      "growthCycle": "3-5 years (bearing)",
+      "optimalConditions": {
+        "temperature": "15-30°C",
+        "humidity": "50-70%",
+        "pH": "5.5-7.5"
+      },
+      "yield": "15-30 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1568702848-2f9c2cf893cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Papaya",
+      "scientificName": "Carica papaya",
+      "growthCycle": "9-12 months",
+      "optimalConditions": {
+        "temperature": "20-30°C",
+        "humidity": "70-85%",
+        "pH": "5.5-7.0"
+      },
+      "yield": "30-50 tons/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1588610372977-8e95f9a8d6bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 23.8, 9.9, 8.7],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Coconut",
+      "scientificName": "Cocos nucifera",
+      "growthCycle": "6-10 years (bearing)",
+      "optimalConditions": {
+        "temperature": "20-30°C",
+        "humidity": "70-80%",
+        "pH": "5.0-7.0"
+      },
+      "yield": "50-100 nuts/palm/year (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1568702848-2f9c2cf893cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Cotton",
+      "scientificName": "Gossypium hirsutum",
+      "growthCycle": "150-180 days",
+      "optimalConditions": {
+        "temperature": "20-30°C",
+        "humidity": "50-70%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "500-1000 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1592725833639-e55e3c1c2e51?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 21.4, 13.0, 8.0],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Jute",
+      "scientificName": "Corchorus olitorius",
+      "growthCycle": "120-150 days",
+      "optimalConditions": {
+        "temperature": "20-35°C",
+        "humidity": "70-80%",
+        "pH": "6.0-7.5"
+      },
+      "yield": "2000-3000 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1568702848-2f9c2cf893cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [19.2, 35.2, 28.8, 10.2, 6.6],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    },
+    {
+      "name": "Coffee",
+      "scientificName": "Coffea arabica",
+      "growthCycle": "3-5 years (bearing)",
+      "optimalConditions": {
+        "temperature": "15-25°C",
+        "humidity": "60-70%",
+        "pH": "5.0-6.5"
+      },
+      "yield": "1000-2000 kg/ha (average)",
+      "imageUrl": "https://images.unsplash.com/photo-1568702848-2f9c2cf893cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "doughnutData": {
+        "datasets": [{
+          "data": [25.6, 32.0, 21.4, 13.0, 8.0],
+          "backgroundColor": ["#f7c35f", "#a2b99a", "#8a9a7b", "#324b34", "#5f7a5f"]
+        }],
+        "labels": ["Seed Phase", "Vegetation", "Bloom", "Final", "Other"]
+      }
+    }
+  ]
+}

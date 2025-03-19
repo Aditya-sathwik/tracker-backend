@@ -1,0 +1,12 @@
+<!-- # Ignore all files in the dist folder -->
+./dist
+
+
+/.vs code 
+
+/node_modules
+
+*.env
+.env
+.env*
+vendor/
