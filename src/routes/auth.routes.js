@@ -9,7 +9,7 @@ router.route("/signup").post(Signupvalidation,signupUser);
 
 router.route("/login").post(loginValidation,loginUser);
 
-router.route("/logout").post (verifyJWT,logoutUser);
+router.route("/logout").post (logoutUser);
 
 // router.route("/refresh-token").post(loginuser);
 

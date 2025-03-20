@@ -1,12 +1,12 @@
-import { ApiError } from "../utils/apierror.js";
-import { asyncHandler } from "../utils/asynchandler.js";
+import { ApiError } from "../utlis/apierror.js";
+import { asyncHandler } from "../utlis/asynchandler.js";
 import jwt from "jsonwebtoken";
 import { User } from "../models/user.models.js";
 
 export const verifyJWT = asyncHandler(async (req, _, next) => {
     try {
         // Extract token from Authorization header (common in React Native apps)
-        const token = req.header("Authorization")?.replace("Bearer ", "");
+        const token = req.body?.refreshToken ;
 
         if (!token) {
             throw new ApiError(401, "Unauthorized request");
