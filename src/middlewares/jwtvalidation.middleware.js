@@ -1,30 +1,33 @@
-import { ApiError } from "../utlis/apierror.js";
-import { asyncHandler } from "../utlis/asynchandler.js";
-import jwt from "jsonwebtoken"
+import { ApiError } from "../utils/apierror.js";
+import { asyncHandler } from "../utils/asynchandler.js";
+import jwt from "jsonwebtoken";
 import { User } from "../models/user.models.js";
 
-export const verifyJWT = asyncHandler(async(req, _, next) => {
+export const verifyJWT = asyncHandler(async (req, _, next) => {
     try {
-        const token = req.cookies?.accessToken || req.header("Authorization")?.replace("Bearer ", "")
-        
-        // console.log(token);
+        // Extract token from Authorization header (common in React Native apps)
+        const token = req.header("Authorization")?.replace("Bearer ", "");
+
         if (!token) {
-            throw new ApiError(401, "Unauthorized request")
+            throw new ApiError(401, "Unauthorized request");
         }
-    
-        const decodedToken = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET)
-    
-        const user = await User.findById(decodedToken?._id).select("-password -refreshToken")
-    
+
+        // Verify the token using the secret
+        const decodedToken = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
+
+        // Find the user by ID from the decoded token, excluding sensitive fields
+        const user = await User.findById(decodedToken?._id).select(
+            "-password -refreshToken"
+        );
+
         if (!user) {
-            
-            throw new ApiError(401, "Invalid Access Token")
+            throw new ApiError(401, "Invalid Access Token");
         }
-    
+
+        // Attach user to the request object
         req.user = user;
-        next()
+        next();
     } catch (error) {
-        throw new ApiError(401, error?.message || "Invalid access token")
+        throw new ApiError(401, error?.message || "Invalid access token");
     }
-    
-})
+});
